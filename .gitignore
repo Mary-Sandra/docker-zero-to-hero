@@ -1,0 +1,14 @@
+# Local terraform directories
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Docker
+.docker/
+
+# Python/Django
+__pycache__/
+*.py[cod]
+db.sqlite3
+.env
